@@ -1,1 +1,407 @@
-*{transition:all 0.3s ease-in-out;}body{background-color: #E5E5E5;background-image: url(img/photo-1519085360753-af0119f7cbe7.jpg);background-repeat: no-repeat;background-size: 50%;background-position: right 5%;font-family: 'Nunito Sans', sans-serif;position:relative;overflow:hidden;margin:auto 30px !important;}.main_nav{display: flex;font-size: 1rem;padding:10px 0 7px 0;position: relative;border-bottom: 2px solid #ccc;}.main_nav:before {position: absolute;background: black;height: 2px;content: '';width: 690px;bottom: -2px;left: 0;}.push{margin-left: auto;}li{list-style: none;display: inline-block;padding-left: 30px;}.toLift{padding-left: 0;font-family: 'Baskervville', serif;text-transform: uppercase;}#law{color: #ADA9A7;}li a{color: #E5E5E5;text-decoration: none;}li a:after{color: #000;}h1{margin: 0;}ul{padding: 0;margin: 0;}.callBtn{background-color: rgba(255,255,255,0.5);border: none;padding: 5px 10px;}.callBtn:hover{background-color: #ADA9A7;}#container{padding: 200px 0;}.name{font-family: 'Baskervville', serif;text-transform: uppercase;font-size: 2.25rem;}p{width: 300px;font-size: 1.1rem;font-weight: bold;margin-top: 30px;}.bookbtn{background-color: black;margin-top: 30px;padding: 0;}.bookbtn a{text-decoration: none;color: white;border: none;font-size: 1rem;display: inline-block;padding: 10px 41px;}.bookbtn a:after,active,focus{color: white;border: none;padding: 10px 41px;}.bookbtn a:hover{background-color: #E5E5E5;border: 1px solid black;color: black;padding: 15px 46px;}@media only screen and (max-width: 567px){body,html{background: url(img/photo-1519085360753-af0119f7cbe7.jpg) no-repeat center center ;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;font-family: 'Nunito Sans', sans-serif;position:relative;overflow:hidden;margin:auto 10px !important;}.main_nav{display: block;font-size: 1rem;padding:15px 0 0 0;position: static;border-bottom: none;text-align: left;}.main_nav:before {position: none;background: none;height: none;content: none;width: none;bottom: none;left: none;}.push{margin-left: auto;border-bottom: 1px solid #E5E5E5;border-top: 1px solid #E5E5E5;}li{list-style: none;display: inline-block;padding-left: 0;padding-top: 10px;padding-bottom: 10px;}.toLift{padding-left: 0;font-family: 'Baskervville', serif;text-transform: uppercase;}#vincent{background-color: #ADA9A7;}#law{color: #ADA9A7;background-color: #000 }li a{color: #E5E5E5;text-decoration: none;}li a:after{color: #E5E5E5;}h1{margin: 0;}ul{padding: 0;margin: 0;}.callBtn{background-color: rgba(255,255,255,0.5);border: none;padding: 5px 10px;}.callBtn:hover{background-color: #ADA9A7;}#container{padding: 170px 0 0 auto;}.name{font-family: 'Baskervville', serif;text-transform: uppercase;font-size: 2.25rem;}.containertxt{background-color: rgba(229,229,229, 0.3);border-radius: 0 0 30px 0;}p{width: 300px;font-size: 1.1rem;font-weight: bold;margin-top: 0;}.bookbtn{background-color: black;margin-top: 0;padding: 0;}.bookbtn a{text-decoration: none;color: white;border: 1px solid #E5E5E5;font-size: 1rem;display: inline-block;padding: 10px 41px;}.bookbtn a:after,active,focus{color: white;border: 1px solid #000;padding: 10px 41px;}.bookbtn a:hover{background-color: #E5E5E5;border: 1px solid black;color: black;padding: 10px 41px;}}@media all and (max-width: 824px) and (min-width: 567px){body,html{background-color: #E5E5E5;background-image: url(img/photo-1519085360753-af0119f7cbe7.jpg);background-repeat: no-repeat;background-size: 50%;background-position: right 0;margin: auto 30px;font-family: 'Nunito Sans', sans-serif;position:relative;overflow:hidden;margin:auto !important;}.main_nav{display: flex;font-size: 1rem;padding:10px 0 7px 0;position: relative;border-bottom: 2px solid #ADA9A7;margin: 0 20px;}.main_nav:before {position: none;background: none;height: none;content: none;width: none;bottom:none;left: none;}.push{margin-left: auto;}li{list-style: none;display: inline-block;padding-left: 20px;margin-top: 7px;}.toLift{padding-left: 0;font-family: 'Baskervville', serif;text-transform: uppercase;}#container{padding: 50px 0;}.name{font-family: 'Baskervville', serif;text-transform: uppercase;font-size: 1.50rem;margin: 0 20px;}p{width: 250px;font-size: 0.9rem;font-weight: bold;margin: 30px 0 0 20px;}.bookbtn{background-color: black;padding: 0;margin:30px 0 0 20px;}}@media all and (max-width: 1367px) and (min-width: 767px){body,html{background-color: #E5E5E5;background-image: url(img/photo-1519085360753-af0119f7cbe7.jpg);background-repeat: no-repeat;background-size: 50%;background-position: right 0;font-family: 'Nunito Sans', sans-serif;position:relative;overflow:hidden;margin:0 !important;}.main_nav{display: flex;font-size: 1rem;position: relative;border-bottom: 1px solid #ccc;padding:10px 30px 7px 30px;}.main_nav:before {position: none;background: none;height: none;content: none;width: none;bottom: none;left: none;}.callBtn{background-color: rgba(255,255,255,0.5);border: none;padding: 5px 10px;}.callBtn:hover{background-color: #ADA9A7;}#container{padding: 200px 0 0 30px;}}
+*{
+	transition:all 0.3s ease-in-out;
+}
+
+body{
+	background-color: #E5E5E5;
+	background-image: url(img/photo-1519085360753-af0119f7cbe7.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: right 5%;
+	font-family: 'Nunito Sans', sans-serif;
+	position:relative;
+    overflow:hidden;
+    margin:auto 30px !important;
+}
+
+/*header*/
+
+.main_nav{
+	display: flex;
+	font-size: 1rem;
+	padding:10px 0 7px 0;
+	position: relative;
+	border-bottom: 2px solid #ccc;
+}
+
+.main_nav:before {
+  position: absolute;
+  background: black;
+  height: 2px;
+  content: '';
+  width: 690px;
+  bottom: -2px;
+  left: 0;
+}
+.push{
+	margin-left: auto;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.toLift{
+	padding-left: 0;
+	font-family: 'Baskervville', serif;
+	text-transform: uppercase;
+}
+
+#law{
+	color: #ADA9A7;
+}
+li a{
+	color: #E5E5E5;
+	text-decoration: none;
+}
+li a:after{
+	color: #000;
+}
+
+h1{
+	margin: 0;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.callBtn{
+	background-color: rgba(255,255,255,0.5);
+	border: none;
+	padding: 5px 10px;
+}
+
+.callBtn:hover{
+	background-color: #ADA9A7;
+}
+
+
+
+/*container*/
+#container{
+	padding: 200px 0;
+}
+
+.name{
+	font-family: 'Baskervville', serif;
+	text-transform: uppercase;
+	font-size: 2.25rem;
+}
+
+p{
+	width: 300px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.bookbtn{
+	background-color: black;
+	margin-top: 30px;
+	padding: 0;
+
+
+}
+
+.bookbtn a{
+	text-decoration: none;
+	color: white;
+	border: none;	
+	font-size: 1rem;
+	display: inline-block;
+	padding: 10px 41px;
+
+}
+
+.bookbtn a:after,active,focus{
+	color: white;
+	border: none;
+	padding: 10px 41px;
+}
+
+.bookbtn a:hover{
+	background-color: #E5E5E5;
+	border: 1px solid black;
+	color: black;
+	padding: 15px 46px;
+}
+
+@media only screen and (max-width: 567px){
+	body,html{
+	background: url(img/photo-1519085360753-af0119f7cbe7.jpg) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Nunito Sans', sans-serif;
+	position:relative;
+    overflow:hidden;
+    margin:auto 10px !important;
+	}
+	/*header*/
+
+	.main_nav{
+		display: block;
+		font-size: 1rem;
+		padding:15px 0 0 0;
+		position: static;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	.main_nav:before {
+	  position: none;
+	  background: none;
+	  height: none;
+	  content: none;
+	  width: none;
+	  bottom: none;
+	  left: none;
+	}
+	.push{
+		margin-left: auto;
+		border-bottom: 1px solid #E5E5E5;
+		border-top: 1px solid #E5E5E5; 
+	}
+
+	li{
+		list-style: none;
+		display: inline-block;
+		padding-left: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.toLift{
+		padding-left: 0;
+		font-family: 'Baskervville', serif;
+		text-transform: uppercase;
+	}
+
+	#vincent{
+		background-color: #ADA9A7;
+	}
+
+	#law{
+		color: #ADA9A7;
+		background-color: #000
+	}
+	li a{
+		color: #E5E5E5;
+		text-decoration: none;
+	}
+	li a:after{
+		color: #E5E5E5;
+	}
+
+	h1{
+		margin: 0;
+	}
+
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+
+	.callBtn{
+		background-color: rgba(255,255,255,0.5);
+		border: none;
+		padding: 5px 10px;
+	}
+
+	.callBtn:hover{
+		background-color: #ADA9A7;
+	}
+
+
+
+	/*container*/
+	#container{
+		padding: 170px 0 0 auto;
+	}
+
+	.name{
+		font-family: 'Baskervville', serif;
+		text-transform: uppercase;
+		font-size: 2.25rem;
+	}
+
+	.containertxt{
+		background-color: rgba(229,229,229, 0.3);
+		border-radius: 0 0 30px 0;
+	}
+
+	p{
+		width: 300px;
+		font-size: 1.1rem;
+		font-weight: bold;
+		margin-top: 0;
+	}
+
+	.bookbtn{
+		background-color: black;
+		margin-top: 0;
+		padding: 0;
+
+
+	}
+
+	.bookbtn a{
+		text-decoration: none;
+		color: white;
+		border: 1px solid #E5E5E5;	
+		font-size: 1rem;
+		display: inline-block;
+		padding: 10px 41px;
+
+	}
+
+	.bookbtn a:after,active,focus{
+		color: white;
+		border:  1px solid #000;	
+		padding: 10px 41px;
+	}
+
+	.bookbtn a:hover{
+		background-color: #E5E5E5;
+		border: 1px solid black;
+		color: black;
+		padding: 10px 41px;
+	}
+
+}
+
+@media all and (max-width: 824px) and (min-width: 567px){
+	body,html{
+	background-color: #E5E5E5;
+	background-image: url(img/photo-1519085360753-af0119f7cbe7.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: right 0;
+	margin: auto 30px;
+	font-family: 'Nunito Sans', sans-serif;
+	position:relative;
+    overflow:hidden;
+    margin:auto !important;
+	}
+
+	/*header*/
+
+	.main_nav{
+		display: flex;
+		font-size: 1rem;
+		padding:10px 0 7px 0;
+		position: relative;
+		border-bottom: 2px solid #ADA9A7;
+		margin: 0 20px;
+	}
+
+	.main_nav:before {
+	  position: none;
+	  background: none;
+	  height: none;
+	  content: none;
+	  width: none;
+	  bottom:none;
+	  left: none;
+	}
+	.push{
+		margin-left: auto;
+	}
+
+	li{
+		list-style: none;
+		display: inline-block;
+		padding-left: 20px;
+		margin-top: 7px;
+	}
+
+	.toLift{
+		padding-left: 0;
+		font-family: 'Baskervville', serif;
+		text-transform: uppercase;
+	}
+
+
+	/*container*/
+	#container{
+		padding: 50px 0;
+	}
+
+	.name{
+	font-family: 'Baskervville', serif;
+	text-transform: uppercase;
+	font-size: 1.50rem;
+	margin: 0 20px;
+	}
+
+	p{
+		width: 250px;
+		font-size: 0.9rem;
+		font-weight: bold;
+		margin: 30px 0 0 20px;
+	}
+
+	.bookbtn{
+		background-color: black;
+		padding: 0;
+		margin:30px 0 0 20px;
+	}
+
+}
+
+@media all and (max-width: 1367px) and (min-width: 767px){
+	body,html{
+	background-color: #E5E5E5;
+	background-image: url(img/photo-1519085360753-af0119f7cbe7.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: right 0;
+	font-family: 'Nunito Sans', sans-serif;
+	position:relative;
+    overflow:hidden;
+    margin:0 !important;
+	}
+
+	/*header*/
+
+	.main_nav{
+		display: flex;
+		font-size: 1rem;
+		position: relative;
+		border-bottom: 1px solid #ccc;
+		padding:10px 30px 7px 30px;
+	}
+
+	.main_nav:before {
+	  position: none;
+	  background: none;
+	  height: none;
+	  content: none;
+	  width: none;
+	  bottom: none;
+	  left: none;
+	}
+
+	.callBtn{
+		background-color: rgba(255,255,255,0.5);
+		border: none;
+		padding: 5px 10px;
+	}
+
+	.callBtn:hover{
+		background-color: #ADA9A7;
+	}
+
+
+
+	/*container*/
+	#container{
+		padding: 200px 0 0 30px;
+	}
+
+}
